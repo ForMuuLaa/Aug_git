@@ -10,34 +10,34 @@ else:
 
 ##Question 1 Task 2: Your Mood Today
 
-UserMood = input("How are you feeling today? ")
+user_mood = input("How are you feeling today? ")
 
-if UserMood == "Happy":
+if user_mood == "Happy":
     print("That's great to hear!")
-if UserMood == "happy":
+if user_mood == "happy":
     print("That's great to hear!")
 
-if UserMood == "Sad":
+if user_mood == "Sad":
     print("I hope your day gets better!")
-if UserMood == "sad":
+if user_mood == "sad":
     print("I hope your day gets better!")
 
 ##Question 2 Task 1: Python Naming Convention Practice
 
 PI_VALUE = 3.14 #I don't think this should be touched
-UserAge = 25 #Uppercase "U"?
+user_age = 25 #Uppercase "U"?
 user_location = "New York"
 MAXLIMIT = 1000 #don't touch
 
 ##Question 3 Task 1: Arithmetic Operations in Daily Life
 
-bread = 2.99
-peanut = 4.99
-butter = 5.99
-jelly = 4.99
+item_bread = 2.99 
+item_peanut = 4.99
+item_butter = 5.99
+item_jelly = 4.99
 
-Total_Price = (bread + peanut + butter + jelly)
-print ("Your total cost is:  $",Total_Price )
+item_total_price = (item_bread + item_peanut + item_butter + item_jelly)
+print ("Your total cost is:  $",item_total_price)
 
 ##Question 3 Task 2: Bank Interest
 
@@ -47,6 +47,6 @@ print ("Your total cost is:  $",Total_Price )
 
 INTEREST_RATE = 1.07 # 7%
 annual_income = float(input("What's your annaul income "))
-after_interest = INTEREST_RATE * annual_income
+annual_after_interest = INTEREST_RATE * annual_income
 
-print("Your annaul income after interest is: $", after_interest)
+print("Your annaul income after interest is: $", annual_after_interest)
