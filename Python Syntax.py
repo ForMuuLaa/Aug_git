@@ -25,7 +25,7 @@ if user_mood == "sad":
 ##Question 2 Task 1: Python Naming Convention Practice
 
 PI_VALUE = 3.14 #I don't think this should be touched
-user_age = 25 #Uppercase "U"?
+user_age = 25 #snakecase?
 user_location = "New York"
 MAXLIMIT = 1000 #don't touch
 
