@@ -48,5 +48,4 @@ print ("Your total cost is:  $",item_total_price)
 INTEREST_RATE = 1.07 # 7%
 annual_income = float(input("What's your annaul income "))
 annual_after_interest = INTEREST_RATE * annual_income
-
 print("Your annaul income after interest is: $", annual_after_interest)
