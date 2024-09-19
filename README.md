@@ -35,16 +35,16 @@ def add_task():
         view_tasks()
 
 
-def view_tasks():
-    global task
-    if not task:#checks if task is empty
-         print("You have no tasks at the moment.")
-    for key, value in task.items(): #prints out tasks neatly
-        print(f"{key}: {value}")
-    return task 
+    def view_tasks():
+        global task
+        if not task:#checks if task is empty
+             print("You have no tasks at the moment.")
+        for key, value in task.items(): #prints out tasks neatly
+            print(f"{key}: {value}")
+        return task 
 
 
-def mark_complete():
+    def mark_complete():
     global task  # Declare that we are using the global variable 'task'
     if not task:# Check if the task dictionary is empty
         print("You have no tasks at the moment.")
@@ -71,8 +71,14 @@ def mark_complete():
     print("\n-------------------------------------------")  # Decorative line for output separation
     view_tasks()  # Display remaining tasks after marking
 
+Purpose: Allows users to delete tasks from their list.
+Check for Tasks: Informs the user if no tasks are available.
+User Input: Prompts for the task name to delete or 'done' to exit.
+Deletion Logic:
+Removes the task if it exists, or informs the user if it does not.
+Final Update: Displays the updated list of tasks after deletion.
 
-def delete_task():
+    def delete_task():
     
     global task  # Declare that we are using the global variable 'task'
     # Check if the task dictionary is empty
@@ -97,8 +103,18 @@ def delete_task():
     
     view_tasks()  # Display remaining tasks after deletion
    
+Calls the menu() function to show available options for task management.
+User Input Handling: Captures and processes user input, ensuring whitespace is stripped for accurate comparison.
+Option Handling:
 
-while True:
+Option 5: Exits the loop, terminating the application.
+Option 1: Calls add_task() to add a new task.
+Option 2: Calls view_tasks() to display existing tasks.
+Option 3: Calls mark_complete() to mark a selected task as completed.
+Option 4: Calls delete_task() to remove a task from the list.
+Error Handling: Provides feedback for invalid input, prompting the user to enter a valid option from the menu.
+
+    while True:
     menu()  # Display the menu options to the user
     user_input = input('* Please enter in a number *: ').strip()  # Get user input and strip whitespace
     
