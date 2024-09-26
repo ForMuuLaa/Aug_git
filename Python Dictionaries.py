@@ -13,7 +13,7 @@ restaurant_menu = {
     "Main Course": {"Steak": 15.99, "Salmon": 13.99},
     "Desserts": {"Cake": 4.99, "Ice Cream": 3.99}
 }
-- Add a new category called "Beverages" with at least two items.
+- Add a new category called "Beverages" with at least two items
 
 - Update the price of "Steak" to 17.99.
 
