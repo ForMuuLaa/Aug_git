@@ -48,7 +48,7 @@ def remove_item_in_category(menu, category, item):
             print(f"-----------]\nItem '{item}' has been removed")
         else:
             print(f"-----------]\nThis '{item}' item doesn't exist.")
-    except detailsError:
+    except TypeError:
         print(f"-----------]\nThis '{item}' item doesn't exist.")
 
 
