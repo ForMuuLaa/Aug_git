@@ -82,7 +82,9 @@ The LibrarySystem class is a fully functional application designed to handle var
 providing methods to manage these entities through different actions:
     
 -Book Operations: Users can add new books, borrow and return books, search for books by title, and display all available books.
+
 -User Operations: The system supports adding new users, viewing user details by name, and displaying all users.
+
 -Author Operations: Users can add new authors, view author details, and display all authors in the system.
 
 The class uses encapsulation to manage the state of books, users, and authors. Each method ensures that only valid data is added or manipulated within the system, with appropriate messages for user feedback. The run() method provides a main loop that continuously presents the user with the main menu, directing them to the respective operation menus (book, user, author) or allowing them to quit the system.
