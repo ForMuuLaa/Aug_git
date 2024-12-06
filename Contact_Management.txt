@@ -1,2 +1,0 @@
-Jane Smith, 987-654-3210, jane@example.com, Neighbor
-Alice Johnson, 555-555-5555, alice@example.com, College friend
